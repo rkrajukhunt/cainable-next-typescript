@@ -1,9 +1,10 @@
 import Card   from "../components/card";
+import NavBar   from "../components/navbar";
 export default function Home() {
   return (
-    <div className="container flex items-center p-4 mx-auto min-h-screen justify-center">
+    <div className="container ">
       <main>
-        
+      <NavBar></NavBar>
         <Card></Card>
         
       </main>
