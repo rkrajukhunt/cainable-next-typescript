@@ -4,3 +4,17 @@
 /* Your own custom component styles */
 
 @import 'tailwindcss/utilities';
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left:5px;
+    color:#fff;
+}
+.main-cards{
+    position: relative;
+}
+.ctm-img{
+    height:100%;
+    opacity: 0.8;
+
+}
