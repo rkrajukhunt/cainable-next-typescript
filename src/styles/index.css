@@ -4,6 +4,7 @@
 /* Your own custom component styles */
 
 @import 'tailwindcss/utilities';
+<<<<<<< HEAD
 
 .card-img{
     background-image: url(../assets/main.png);
@@ -32,3 +33,19 @@
     margin-left: 5px;
     top: 50%;
   }
+=======
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left:5px;
+    color:#fff;
+}
+.main-cards{
+    position: relative;
+}
+.ctm-img{
+    height:100%;
+    opacity: 0.8;
+
+}
+>>>>>>> b71d108f6838e0f85bfad9d5aa3fddd4da09e6eb
