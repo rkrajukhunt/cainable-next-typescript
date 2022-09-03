@@ -1,12 +1,14 @@
 import Search from "../assets/search.png";
 import Image from "next/image";
+import { Label, TextInput } from "flowbite-react";
+import { HiSearch } from "react-icons/hi";
 export default function Home() {
   return (
-    <div className="container ">
+    <div className="md:container md:mx-auto ">
       <div className=" nav-bar">
         <h2>Anime</h2>
-        
-        <div className="relative">
+
+        {/* <div className="relative">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <svg
               aria-hidden="true"
@@ -29,8 +31,17 @@ export default function Home() {
             placeholder="search"
             className="nav-search block p-4 pl-10 w-full text-sm text-gray-900 rounded-lg   dark:placeholder-gray-400 dark:text-black"
           />
-        </div>
+        </div> */}
 
+        <div>
+          <TextInput
+            id="email4"
+            type="email"
+            placeholder="Search"
+            required={true}
+            icon={HiSearch}
+          />
+        </div>
         <p>Today is the 24th of October</p>
       </div>
     </div>
