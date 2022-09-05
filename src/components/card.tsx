@@ -1,5 +1,6 @@
 import Diamond from "../assets/main.png";
 import Image from "next/image";
+import { Card, Button } from "flowbite-react";
 export default function Home() {
   const data = [
     {
@@ -49,19 +50,20 @@ export default function Home() {
     },
   ];
   return (
-    <div className="md:container md:mx-auto ">
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 ">
+    <div className="md:container md:mx-auto container">
+      <div className="grid gap-4 md:grid-cols-4 sm:grid-cols-1 text-center">
         {data.map((user) => (
-          <div key={user.id} className="relative">
+          <Card key={user.id} >
+            <div className="relative">
             <Image
               src={Diamond}
               alt="Picture of the author"
               className="ctm-img object-cover"
             />
-            <div className="absolute bottom-5 left-3 xs:left-18">
-              <p className=" text-white">{user.name}</p>
-            </div>
-          </div>
+            <div className="absolute bottom-4 md:left-10 xs:left-22 sm:left-22">
+              <p className=" text-black  ">{user.name}</p>
+            </div></div>
+          </Card>
         ))}
       </div>
     </div>
