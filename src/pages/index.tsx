@@ -1,5 +1,6 @@
 import Card   from "../components/card";
 import Card2   from "../components/care2";
+
 import NavBar   from "../components/navbar";
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         </div>
         <div>
         <Card2></Card2>
+  
         </div>
         
       </main>
