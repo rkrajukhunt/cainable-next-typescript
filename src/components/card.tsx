@@ -60,8 +60,8 @@ export default function Home() {
               alt="Picture of the author"
               className="ctm-img object-cover"
             />
-            <div className="absolute bottom-4 md:left-10 xs:left-22 sm:left-22">
-              <p className=" text-black  ">{user.name}</p>
+            <div className="absolute bottom-4 md:left-10 lg:left-16 xs:left-22 sm:left-22">
+              <p className=" text-white  ">{user.name}</p>
             </div></div>
           </Card>
         ))}
