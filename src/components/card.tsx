@@ -51,7 +51,7 @@ export default function Home() {
   ];
   return (
     <div className="md:container md:mx-auto container">
-      <div className="grid gap-4 md:grid-cols-4 sm:grid-cols-1 text-center">
+      <div className="grid gap-4 md:grid-cols-4 sm:grid-cols-1 text-center px-5">
         {data.map((user) => (
           <Card key={user.id} >
             <div className="relative">
